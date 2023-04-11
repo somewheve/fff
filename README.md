@@ -221,7 +221,6 @@ impl FiFo {
                 }
                 boost_mdqp_work(false);
             };
-            self.last_mq_ns = unix_timestamp;
             tick
         }
     }
